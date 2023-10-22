@@ -297,6 +297,8 @@ article.active {
   /* for horizontal scrollbar */
 }
 .sticky-button {
+	bottom:20px;
+	right:20px;
 position: fixed;
   /* Adjusted for the bottom right corner */
   background: transparent;
