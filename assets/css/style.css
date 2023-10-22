@@ -296,7 +296,32 @@ article.active {
   height: 5px;
   /* for horizontal scrollbar */
 }
+.sticky-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* Adjusted for the bottom right corner */
+  background: transparent;
+  border: 1px solid #FBAB7E;
+  /* Thin boundary with your gradient color */
+  border-radius: 30px;
+  /* Increase the border-radius to make it bigger */
+  cursor: pointer;
+  padding: 10px 20px;
+  /* Adjust padding for more space */
+  font-size: 16px;
+  /* Increase font size */
+  z-index: 999;
+}
 
+/* Gradient background */
+.sticky-button {
+  background: -webkit-linear-gradient(to right, #FBAB7E 0%, #F7CE68 42%);
+  background: -moz-linear-gradient(to right, #FBAB7E 0%, #F7CE68 42%);
+  background: linear-gradient(to right, #FBAB7E 0%, #F7CE68 42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
