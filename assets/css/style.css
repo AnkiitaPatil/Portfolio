@@ -984,7 +984,15 @@ main {
   height: calc(100% + 50px);
   background: var(--jet);
 }
-
+.hehe{
+  color: gray;
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-left: 95px;
+  margin-top: -10px;
+}
 .timeline-item::after {
   content: "";
   position: absolute;
